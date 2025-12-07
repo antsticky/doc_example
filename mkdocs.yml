@@ -1,0 +1,9 @@
+site_name: Minimal Docs Example
+theme:
+  name: material
+plugins:
+  - mkdocstrings:
+      default_handler: python
+nav:
+  - Home: README.md
+  - Reference: docs/reference.md
