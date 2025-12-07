@@ -66,3 +66,97 @@ with a hardcoded string.
 
   None
 
+<a id="src.hello.Animal"></a>
+
+## Animal Objects
+
+```python
+class Animal(BaseModel)
+```
+
+Base class representing a generic animal.
+
+**Attributes**:
+
+- `name` _str_ - The name of the animal.
+
+<a id="src.hello.Animal.speak"></a>
+
+#### speak
+
+```python
+def speak() -> str
+```
+
+Return a generic sound for the animal.
+
+**Returns**:
+
+- `str` - A placeholder sound.
+
+<a id="src.hello.Dog"></a>
+
+## Dog Objects
+
+```python
+class Dog(Animal)
+```
+
+A subclass of Animal representing a dog.
+
+Inherits all attributes from Animal.
+
+**Attributes**:
+
+- `breed` _str_ - The breed of the dog.
+
+<a id="src.hello.Dog.speak"></a>
+
+#### speak
+
+```python
+def speak() -> str
+```
+
+Return the sound a dog makes.
+
+Overrides:
+Animal.speak
+
+**Returns**:
+
+- `str` - The sound "Woof!".
+
+<a id="src.hello.Cat"></a>
+
+## Cat Objects
+
+```python
+class Cat(Animal)
+```
+
+A subclass of Animal representing a cat.
+
+Inherits all attributes from Animal.
+
+**Attributes**:
+
+- `color` _str_ - The color of the cat.
+
+<a id="src.hello.Cat.speak"></a>
+
+#### speak
+
+```python
+def speak() -> str
+```
+
+Return the sound a cat makes.
+
+Overrides:
+Animal.speak
+
+**Returns**:
+
+- `str` - The sound "Meow!".
+
