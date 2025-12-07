@@ -10,6 +10,17 @@ def greet(name: str) -> str:
     """
     return f"Hello, {name}!"
 
+class Korte:
+    """
+    This is something
+    """
+    def alma(a: str):
+        """_summary_
+
+        Args:
+            a (str): _description_
+        """
+        print(a)
 
 def alma():
     """

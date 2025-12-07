@@ -21,6 +21,30 @@ Return a friendly greeting.
 
 - `str` - A greeting message.
 
+<a id="src.hello.Korte"></a>
+
+## Korte Objects
+
+```python
+class Korte()
+```
+
+This is something
+
+<a id="src.hello.Korte.alma"></a>
+
+#### alma
+
+```python
+def alma(a: str)
+```
+
+_summary_
+
+**Arguments**:
+
+- `a` _str_ - _description_
+
 <a id="src.hello.alma"></a>
 
 #### alma
