@@ -80,20 +80,6 @@ Base class representing a generic animal.
 
 - `name` _str_ - The name of the animal.
 
-<a id="src.hello.Animal.speak"></a>
-
-#### speak
-
-```python
-def speak() -> str
-```
-
-Return a generic sound for the animal.
-
-**Returns**:
-
-- `str` - A placeholder sound.
-
 <a id="src.hello.Dog"></a>
 
 ## Dog Objects
@@ -102,30 +88,14 @@ Return a generic sound for the animal.
 class Dog(Animal)
 ```
 
-A subclass of Animal representing a dog.
+A subclass of `Animal` representing a dog.
 
-Inherits all attributes from Animal.
+Inherits:
+- `name` from Animal
 
 **Attributes**:
 
 - `breed` _str_ - The breed of the dog.
-
-<a id="src.hello.Dog.speak"></a>
-
-#### speak
-
-```python
-def speak() -> str
-```
-
-Return the sound a dog makes.
-
-Overrides:
-Animal.speak
-
-**Returns**:
-
-- `str` - The sound "Woof!".
 
 <a id="src.hello.Cat"></a>
 
@@ -135,28 +105,12 @@ Animal.speak
 class Cat(Animal)
 ```
 
-A subclass of Animal representing a cat.
+A subclass of `Animal` representing a cat.
 
-Inherits all attributes from Animal.
+Inherits:
+- `name` from Animal
 
 **Attributes**:
 
 - `color` _str_ - The color of the cat.
-
-<a id="src.hello.Cat.speak"></a>
-
-#### speak
-
-```python
-def speak() -> str
-```
-
-Return the sound a cat makes.
-
-Overrides:
-Animal.speak
-
-**Returns**:
-
-- `str` - The sound "Meow!".
 
