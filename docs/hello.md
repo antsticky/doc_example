@@ -21,3 +21,13 @@ Return a friendly greeting.
 
 - `str` - A greeting message.
 
+<a id="src.hello.alma"></a>
+
+#### alma
+
+```python
+def alma()
+```
+
+AAA BBB
+

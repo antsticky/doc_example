@@ -12,4 +12,7 @@ def greet(name: str) -> str:
 
 
 def alma():
+    """
+    AAA BBB
+    """
     print("korte")
