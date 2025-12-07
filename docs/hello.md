@@ -10,48 +10,59 @@
 def greet(name: str) -> str
 ```
 
-Return a friendly greeting.
+Generate a friendly greeting message.
 
 **Arguments**:
 
-- `name` _str_ - The name to greet.
+- `name` _str_ - The name of the person to greet.
   
 
 **Returns**:
 
-- `str` - A greeting message.
+- `str` - A formatted greeting message including the provided name.
 
 <a id="src.hello.Korte"></a>
 
 ## Korte Objects
 
 ```python
-class Korte()
+class Korte(BaseModel)
 ```
 
-This is something
+Example data model representing a simple entity.
+
+**Attributes**:
+
+- `bbb` _str_ - A string field with a default value of "aaaaaaaa".
 
 <a id="src.hello.Korte.alma"></a>
 
 #### alma
 
 ```python
-def alma(a: str)
+def alma(a: str) -> None
 ```
 
-_summary_
+Print the provided string argument.
 
 **Arguments**:
 
-- `a` _str_ - _description_
+- `a` _str_ - The string to be printed.
 
 <a id="src.hello.alma"></a>
 
 #### alma
 
 ```python
-def alma()
+def alma() -> None
 ```
 
-AAA BBB
+Print a fixed message.
+
+This function demonstrates a simple print statement
+with a hardcoded string.
+
+**Returns**:
+
+  None
 
