@@ -1,3 +1,6 @@
+# Table of content
+- [Animal](#animal) representing a dog.
+
 <a id="src.hello"></a>
 
 # src.hello
