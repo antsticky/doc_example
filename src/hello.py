@@ -9,3 +9,7 @@ def greet(name: str) -> str:
         str: A greeting message.
     """
     return f"Hello, {name}!"
+
+
+def alma():
+    print("korte")
